@@ -1,0 +1,43 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is 2024.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and expand each topic into a full section for a report.
+    Make sure the report is detailed and contains any and all relevant information.
+  expected_output: >
+    A fully fledge reports with the mains topics, each with a full section of information.
+    Formatted as markdown without '```'
+  agent: reporting_analyst
+
+# crypto_analysis_task:
+#   description: >
+#     Analyze the data and trends you got and identify potential opportunities and risks.
+#     Make sure you provide a detailed analysis of the data and trends.
+#   expected_output: >
+#     A detailed analysis of the data and trends, including potential opportunities and risks.
+#   agent: crypto_analyst
+
+# crypto_trade_analysis_task:
+#   description: >
+#     Analyze the data to inform trading strategies and decisions.
+#     Make sure you provide a detailed analysis of the data and trends.
+#   expected_output: >
+#     A detailed analysis of the data and trends, including potential trading strategies and decisions.
+#   agent: crypto_trade_analyst
+
+# crypto_swing_trade_analysis_task:
+#   description: >
+#     Analyze the data to inform swing trading strategies and decisions.
+#     Make sure you provide a detailed analysis of the data and trends.
+#   expected_output: >
+#     A detailed analysis of the data and trends, including potential swing trading strategies and decisions.
+#   agent: crypto_trade_analyst
+
+  

@@ -1,0 +1,20 @@
+[project]
+name = "crypto_researcher"
+version = "0.1.0"
+description = "crypto_researcher using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0,<1.0.0"
+]
+
+[project.scripts]
+crypto_researcher = "crypto_researcher.main:run"
+run_crew = "crypto_researcher.main:run"
+train = "crypto_researcher.main:train"
+replay = "crypto_researcher.main:replay"
+test = "crypto_researcher.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
